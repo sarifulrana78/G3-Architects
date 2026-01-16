@@ -29,6 +29,10 @@
     border-radius: 8px;
     border: none;
 }
+main{
+    max-width: 1440px;
+    margin: flex;
+}
 .navbar{
     justify-content: space-between;
     align-items: center;
