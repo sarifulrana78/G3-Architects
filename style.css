@@ -31,7 +31,7 @@
 }
 main{
     max-width: 1440px;
-    margin: flex;
+    margin: 0 auto;
 }
 .navbar{
     justify-content: space-between;
