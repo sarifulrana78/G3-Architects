@@ -123,12 +123,15 @@ max-width: 530px;
   font-weight: 600;
   margin-top: 10px; 
 }
+.fact-description{
+    max-width: 540px;
+}
 @media screen and (max-width:576px) {
     .navbar,.nav-links, .teams{
         flex-direction: column;
     }
-    .team-image-container{
-        grid-template-columns: repeat(1, 1fr);
+    .team-image-container, .facts-container{
+        grid-template-columns: repeat(1fr);
     }
     .our-features{
     margin-left: 20px;
